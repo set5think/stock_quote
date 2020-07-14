@@ -14,7 +14,7 @@ module StockQuote
     URL =  "https://cloud.iexapis.com/#{VERSION}/stock/"
     ATTRIBUTION = "Data provided for free by IEX (https://iexcloud.io)."
     RANGES = ['5y','2y','1y','ytd','6m','3m','1m','1d']
-    TYPES = ['book', 'chart', 'company', 'delayed_quote', 'dividends', 'earnings', 'financials', 'splits', 'stats','logo', 'news', 'ohlc', 'peers', 'previous', 'quote', 'relevant', 'volume_by_venue']
+    TYPES = ['book', 'chart', 'company', 'delayed_quote', 'dividends', 'earnings', 'financials', 'splits', 'stats','logo', 'news', 'ohlc', 'peers', 'previous', 'quote', 'relevant', 'volume_by_venue', 'intraday-prices']
   
     class << self
       attr_accessor :api_key
